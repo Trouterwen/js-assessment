@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DbQuizGame</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <h1>Dragon Ball Quiz Game</h1>
+
+  <div class="container" id="start-container">
+    <h2>Welcome to the DB quiz Game!</h2>
+    <h3>Score is out of 10!</h3>
+    <button id="start-button">Start</button>
+  </div>
+
+  <div class="container" id="quiz-container" class="hidden">
+    <div id="question"></div>
+    <ul id="choices"></ul>
+    <p>Time Left: <span id="timer">0</span> seconds</p>
+    <input type="text" id="initials" placeholder="Enter your initials">
+    <button id="submit-button">Submit</button>
+  </div>
+
+  <div class="container" id="game-over-container" class="hidden">
+    <h2>Game Over!</h2>
+    <p>Your Score: <span id="score"></span></p>
+  </div>
+
+  <script src="./assets/javascript"></script>
+</body>
+</html>
